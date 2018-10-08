@@ -15,7 +15,7 @@ public class Application {
     private static int CountOfThreads = 3;
 
     public static void main(String[] args) throws IOException {
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
 
         RandomAccessFile randomAccessFile = new RandomAccessFile(filePath,"r" );
 

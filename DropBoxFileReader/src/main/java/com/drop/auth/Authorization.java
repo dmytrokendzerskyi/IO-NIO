@@ -5,8 +5,6 @@ import com.dropbox.core.v2.DbxClientV2;
 
 public class Authorization {
 
-    private static final String APP_KEY = "dciwrsg941zn4t9";
-    private static final String APP_SECRET = "ug1hby11ti2agcq";
     private static final String APP_TOKEN = "Fxb45CxjPNAAAAAAAAAADLyOVt4o0X2lGXuuTBLnavdG9gY1jRcrdWiD38YFmdMq";
     private static final String APP_NAME = "FileReaderTest";
 
